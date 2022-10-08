@@ -4,7 +4,7 @@
 
 # https://hub.docker.com/_/php?tab=tags&page=1&name=apache
 # TODO When moving to PHP8.0, remove xmlrpc extension!
-FROM php:7.4-apache
+FROM php:7.4-bullseye
 
 LABEL maintainer="François Jacquet <francoisjacquet@users.noreply.github.com>"
 
